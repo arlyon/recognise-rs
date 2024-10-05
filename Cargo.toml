@@ -1,0 +1,15 @@
+[package]
+edition = "2021"
+name = "recognise-rs"
+version = "0.1.0"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+anyhow = "1.0.53"
+cpal = "0.13.5"
+dasp = {version = "0.11.0", features = ["slice", "signal"]}
+find_folder = "0.3.0"
+hound = "3.4.0"
+signalo = "0.6.0"
+termion = "1.5.6"
